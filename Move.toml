@@ -1,0 +1,17 @@
+[package]
+name = "InternshipModule"
+version = "1.0.0"
+authors = []
+
+[addresses]
+NFTMarket = '0x92dcc7086e0d770d826839f97e01e52bacaab577c38ffc602edded7ec5bd2a24'
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
+
+
